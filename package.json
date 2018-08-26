@@ -1,0 +1,23 @@
+{
+  "name": "deepEqual",
+  "version": "1.0.0",
+  "description": "Write a function deepEqual that takes two values and returns true only if they are the same value or are objects with the same properties, where the values of the properties are equal when compared with a recursive call to deepEqual.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha *test*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam17/deepEqual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adam17/deepEqual/issues"
+  },
+  "homepage": "https://github.com/adam17/deepEqual#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
